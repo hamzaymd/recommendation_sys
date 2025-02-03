@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Book system",
+			"path": "../Book system"
+		},
+		{
+			"name": "BOOK_USERS",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

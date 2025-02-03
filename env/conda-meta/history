@@ -1,0 +1,28 @@
+==> 2024-05-24 22:48:31 <==
+# cmd: C:\Users\AZA\anaconda3\Scripts\conda-script.py create --prefix ./env python==3.7 -y
+# conda version: 24.3.0
++defaults/win-64::certifi-2022.12.7-py37haa95532_0
++defaults/win-64::pip-22.3.1-py37haa95532_0
++defaults/win-64::python-3.7.0-hea74fb7_0
++defaults/win-64::setuptools-65.6.3-py37haa95532_0
++defaults/win-64::vc-14.2-h2eaa2aa_1
++defaults/win-64::vs2015_runtime-14.29.30133-h43f2093_3
++defaults/win-64::wheel-0.38.4-py37haa95532_0
++defaults/win-64::wincertstore-0.2-py37haa95532_2
+# update specs: ['python==3.7']
+==> 2024-05-24 23:08:58 <==
+# cmd: C:\Users\AZA\anaconda3\Scripts\conda-script.py install openssl
+# conda version: 24.3.0
++defaults/win-64::ca-certificates-2024.3.11-haa95532_0
++defaults/win-64::openssl-3.0.13-h2bbff1b_2
+# update specs: ['openssl']
+==> 2024-05-30 15:54:52 <==
+# cmd: C:\Users\AZA\anaconda3\Scripts\conda-script.py uninstall openssl
+# conda version: 24.5.0
+-defaults/win-64::openssl-3.0.13-h2bbff1b_2
+# remove specs: ['openssl']
+==> 2024-05-30 15:55:40 <==
+# cmd: C:\Users\AZA\anaconda3\Scripts\conda-script.py install openssl
+# conda version: 24.5.0
++defaults/win-64::openssl-3.0.13-h2bbff1b_2
+# update specs: ['openssl']

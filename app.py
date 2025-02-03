@@ -35,6 +35,7 @@ def recommend_book(book_name):
     books_list = []
     book_id = np.where(book_pivot.index == book_name)[0][0]
     distance, suggestion = model.kneighbors(book_pivot.iloc[book_id,:].values.reshape(1,-1), n_neighbors=6 )
+    #Test commit 
 
     poster_url = fetch_poster(suggestion)
     
